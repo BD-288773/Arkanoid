@@ -14,9 +14,25 @@ public class PlayersPad {
         gameInstance = game;
     }
 
-    public boolean collidesWith(Rectangle object){
-        return hitBox.intersects(object);
+    public int getX(){
+        return hitBox.x;
     }
+
+    public int getY(){
+        return hitBox.y;
+    }
+
+    public int getWidth(){
+        return hitBox.width;
+    }
+
+    public int getHeight(){
+        return hitBox.height;
+    }
+
+    public Rectangle getHitBox() { return hitBox; }
+
+    public void  setWidth(int width) { hitBox.width = width; }
 
     public void render(Graphics g){
 
