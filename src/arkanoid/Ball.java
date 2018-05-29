@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class Ball {
 
-    public static int standardBallRadius = 5 ;
+    public static int standardBallRadius = 8;
     private Gameplay gameInstance;
     private Point possition;
     private int radius;
@@ -44,18 +44,26 @@ public class Ball {
      */
 
     public void update(){
-        if(possition.x - 2*radius <= 0 && movement.width < 0) movement.width = -movement.width;
-        if(possition.x + 2*radius >= gameInstance.getGamefield().width && movement.width > 0) movement.width = -movement.width;
-        if(possition.y - 2*radius <= 0 && movement.height < 0) movement.height = -movement.height;
-        if(possition.y + 2*radius >= gameInstance.getGamefield().height && movement.height > 0) gameInstance.loseBall();
 
-        checkPlayerCollision();
-        checkObstacleCollision();
+        int value = movement.width;
+        if(value < 0) value = - value;
 
-        if(gameInstance.getObstacle().getTotalBricks() == 0)
-            gameInstance.setIsWon(true);
+        for(int i=1;i<=value;i++) {
+            if (possition.x - 2 * radius <= 0 && movement.width < 0) movement.width = -movement.width;
+            if (possition.x + 2 * radius >= gameInstance.getGamefield().width && movement.width > 0)
+                movement.width = -movement.width;
+            if (possition.y - 2 * radius <= 0 && movement.height < 0) movement.height = -movement.height;
+            if (possition.y + 2 * radius >= gameInstance.getGamefield().height && movement.height > 0)
+                gameInstance.loseBall();
 
-        possition.move(possition.x + movement.width, possition.y + movement.height);
+            checkPlayerCollision();
+            checkObstacleCollision();
+
+            if (gameInstance.getObstacle().getTotalBricks() == 0)
+                gameInstance.setIsWon(true);
+
+            possition.move(possition.x + (movement.width / value), possition.y + (movement.height / value));
+        }
     }
 
     /**
@@ -165,7 +173,7 @@ public class Ball {
 
     /**
      * Renders ball
-     * @param g
+     * @param g JPanel param
      */
 
     public void render(Graphics g){

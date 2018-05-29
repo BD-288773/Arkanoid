@@ -110,7 +110,7 @@ public class Obstacle {
 
     /**
      * renders obstacles
-     * @param g
+     * @param g JPanel param
      */
 
     public void render(Graphics g){

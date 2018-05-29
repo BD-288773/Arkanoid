@@ -1,10 +1,8 @@
 package arkanoid;
 
 import arkanoid.controller.Controller;
-import arkanoid.controller.actions.RightKeyPressedAction;
 import arkanoid.view.events.*;
 import arkanoid.view.events.Event;
-import javafx.scene.input.KeyEvent;
 
 import javax.swing.*;
 import java.awt.*;
@@ -28,62 +26,28 @@ public class Menu extends JPanel{
 
         @Override
         public void keyPressed(java.awt.event.KeyEvent e) {
-            try {
-                queue.put(new SpaceKeyPressedEvent());
-            } catch (InterruptedException e1) {
-                e1.printStackTrace();
+            if(e.getKeyCode() == java.awt.event.KeyEvent.VK_SPACE){
+                try {
+                    queue.put(new SpaceKeyPressedEvent());
+                } catch (InterruptedException e1) {
+                    e1.printStackTrace();
+                }
             }
-        }
-
-        @Override
-        public void keyReleased(java.awt.event.KeyEvent e) {
-
-        }
-    }
-
-    private class RightKeyListener implements KeyListener{
-        BlockingQueue<Event> queue;
-        public RightKeyListener(BlockingQueue<Event> queue) {
-            this.queue = queue;
-        }
-
-        @Override
-        public void keyTyped(java.awt.event.KeyEvent e) {
-
-        }
-
-        @Override
-        public void keyPressed(java.awt.event.KeyEvent e) {
-            try {
-                queue.put(new RightKeyPressedEvent());
-            } catch (InterruptedException e1) {
-                e1.printStackTrace();
+            if(e.getKeyCode() == java.awt.event.KeyEvent.VK_RIGHT) {
+                try {
+                    queue.put(new RightKeyPressedEvent());
+                } catch (InterruptedException e1) {
+                    e1.printStackTrace();
+                }
             }
-        }
-
-        @Override
-        public void keyReleased(java.awt.event.KeyEvent e) {
-
-        }
-    }
-
-    private class LeftKeyListener implements KeyListener{
-        BlockingQueue<Event> queue;
-        public LeftKeyListener(BlockingQueue<Event> queue) {
-            this.queue = queue;
-        }
-        @Override
-        public void keyTyped(java.awt.event.KeyEvent e) {
-
-        }
-
-        @Override
-        public void keyPressed(java.awt.event.KeyEvent e) {
-            try {
-                queue.put(new LeftKeyPressedEvent());
-            } catch (InterruptedException e1) {
-                e1.printStackTrace();
+            if(e.getKeyCode() == java.awt.event.KeyEvent.VK_LEFT){
+                try {
+                    queue.put(new LeftKeyPressedEvent());
+                } catch (InterruptedException e1) {
+                    e1.printStackTrace();
+                }
             }
+
         }
 
         @Override
@@ -109,8 +73,6 @@ public class Menu extends JPanel{
         queue = new LinkedBlockingQueue<>();
         frame.add(gameInterface);
         frame.addKeyListener(new SpaceKeyListener(queue));
-        frame.addKeyListener(new RightKeyListener(queue));
-        frame.addKeyListener(new LeftKeyListener(queue));
     }
 
     public static void main(String[] args) throws InterruptedException {
@@ -122,20 +84,18 @@ public class Menu extends JPanel{
         Controller controller = new Controller(game,gameInterface,queue);
         Thread thread = new Thread(controller);
         thread.start();
-        while(!game.isInProgress()){}
+        while(!game.isInProgress())
+        {                                       //Problemem był brak instrukcji w pętli debugger przepuszczał, po wciśnięciu spacji, a kompilator nie.
+            System.out.println();               //System.out.println();, jest jedyną instrukcją, ktróa działa zawsze,
+        }                                       //okazjonalnie działało if(queue.size>0)break;, nie rozumiem dlaczego
         long lastTime = System.nanoTime();
         while(game.isInProgress()){
             long now = System.nanoTime();
             delta += (now - lastTime) / ns;
             lastTime = now;
-            //if (delta >= 1) {
-              //  delta--;
+            if (delta >= 1) {
+                delta--;
                 queue.put(new UpdateEvent());
-            //}
-            try {
-                thread.sleep(400);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
             }
             if (game.isWon()) break;
         }

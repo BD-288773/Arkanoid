@@ -2,21 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="320fddd1-f202-4f8c-ac07-9c87a3d1288f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arkanoid/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Ball.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Ball.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Gameplay$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Gameplay$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Gameplay$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Gameplay$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Gameplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Gameplay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Obstacle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Obstacle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Menu$SpaceKeyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Menu$SpaceKeyListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Menu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/PlayersPad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/PlayersPad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/controller/actions/LeftKeyPressedAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/controller/actions/LeftKeyPressedAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/controller/actions/RightKeyPressedAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/controller/actions/RightKeyPressedAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/controller/actions/SpaceKeyPressedAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/controller/actions/SpaceKeyPressedAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/controller/actions/UpdateAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/controller/actions/UpdateAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/view/events/LeftKeyPressedEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/view/events/LeftKeyPressedEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/view/events/RightKeyPressedEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/view/events/RightKeyPressedEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/view/events/SpaceKeyPressedEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Arkanoid/arkanoid/view/events/SpaceKeyPressedEvent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/arkanoid/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arkanoid/Ball.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/arkanoid/Bonus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arkanoid/Bonus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arkanoid/Gameplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arkanoid/Gameplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arkanoid/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arkanoid/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arkanoid/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arkanoid/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/arkanoid/Obstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arkanoid/Obstacle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/arkanoid/PlayersPad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arkanoid/PlayersPad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arkanoid/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arkanoid/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arkanoid/controller/actions/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arkanoid/controller/actions/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arkanoid/controller/actions/LeftKeyPressedAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arkanoid/controller/actions/LeftKeyPressedAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arkanoid/controller/actions/RightKeyPressedAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arkanoid/controller/actions/RightKeyPressedAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arkanoid/controller/actions/SpaceKeyPressedAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arkanoid/controller/actions/SpaceKeyPressedAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arkanoid/controller/actions/UpdateAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arkanoid/controller/actions/UpdateAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arkanoid/view/events/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arkanoid/view/events/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arkanoid/view/events/LeftKeyPressedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arkanoid/view/events/LeftKeyPressedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arkanoid/view/events/RightKeyPressedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arkanoid/view/events/RightKeyPressedEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arkanoid/view/events/SpaceKeyPressedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arkanoid/view/events/SpaceKeyPressedEvent.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,20 +41,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arkanoid/Main.java">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arkanoid/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="405">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arkanoid/Menu.java">
+      <file leaf-file-name="SpaceKeyPressedAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arkanoid/controller/actions/SpaceKeyPressedAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,11 +70,50 @@
       <file leaf-file-name="Gameplay.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arkanoid/Gameplay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="238" column="61" selection-start-line="238" selection-start-column="61" selection-end-line="238" selection-end-column="61" />
+            <state relative-caret-position="159">
+              <caret line="222" column="48" selection-start-line="222" selection-start-column="48" selection-end-line="222" selection-end-column="48" />
+              <folding>
+                <element signature="e#6260#6261#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameInterface.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arkanoid/GameInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ball.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arkanoid/Ball.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-680">
+              <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Menu.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/arkanoid/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="74" column="58" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/arkanoid/controller/actions/UpdateAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -61,20 +121,8 @@
       <file leaf-file-name="PlayersPad.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arkanoid/PlayersPad.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ball.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/arkanoid/Ball.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="439">
+              <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -82,8 +130,8 @@
       <file leaf-file-name="Obstacle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arkanoid/Obstacle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="112" column="28" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,18 +142,10 @@
       <file leaf-file-name="Bonus.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arkanoid/Bonus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="728">
+              <caret line="140" column="28" selection-start-line="140" selection-start-column="28" selection-end-line="140" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#128#129#0" expanded="true" />
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#630#631#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,13 +172,23 @@
         <option value="$PROJECT_DIR$/src/Ball.java" />
         <option value="$PROJECT_DIR$/src/PlayersPad.java" />
         <option value="$PROJECT_DIR$/src/Gameplay.java" />
-        <option value="$PROJECT_DIR$/src/arkanoid/Menu.java" />
         <option value="$PROJECT_DIR$/src/arkanoid/Main.java" />
+        <option value="$PROJECT_DIR$/src/arkanoid/Gameplay.java" />
+        <option value="$PROJECT_DIR$/src/arkanoid/controller/actions/RightKeyPressedAction.java" />
+        <option value="$PROJECT_DIR$/src/arkanoid/controller/actions/LeftKeyPressedAction.java" />
+        <option value="$PROJECT_DIR$/src/arkanoid/controller/actions/SpaceKeyPressedAction.java" />
+        <option value="$PROJECT_DIR$/src/arkanoid/controller/actions/Action.java" />
+        <option value="$PROJECT_DIR$/src/arkanoid/view/events/Event.java" />
+        <option value="$PROJECT_DIR$/src/arkanoid/view/events/LeftKeyPressedEvent.java" />
+        <option value="$PROJECT_DIR$/src/arkanoid/view/events/RightKeyPressedEvent.java" />
+        <option value="$PROJECT_DIR$/src/arkanoid/view/events/SpaceKeyPressedEvent.java" />
+        <option value="$PROJECT_DIR$/src/arkanoid/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/arkanoid/PlayersPad.java" />
         <option value="$PROJECT_DIR$/src/arkanoid/Obstacle.java" />
         <option value="$PROJECT_DIR$/src/arkanoid/Bonus.java" />
-        <option value="$PROJECT_DIR$/src/arkanoid/PlayersPad.java" />
-        <option value="$PROJECT_DIR$/src/arkanoid/Gameplay.java" />
+        <option value="$PROJECT_DIR$/src/arkanoid/controller/actions/UpdateAction.java" />
         <option value="$PROJECT_DIR$/src/arkanoid/Ball.java" />
+        <option value="$PROJECT_DIR$/src/arkanoid/Menu.java" />
       </list>
     </option>
   </component>
@@ -163,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -183,10 +232,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="arkanoid" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Arkanoid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arkanoid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="arkanoid" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Arkanoid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arkanoid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="arkanoid" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Arkanoid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Arkanoid" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="arkanoid" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,6 +266,161 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Ball.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Bonus.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Gameplay.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Menu.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Obstacle.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/PlayersPad.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/arkanoid/Ball.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/arkanoid/Bonus.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/arkanoid/Gameplay.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/arkanoid/Obstacle.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/arkanoid/PlayersPad.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Bonus$TYPE.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/GameInterface.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Menu$LeftKeyListener.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Menu$RightKeyListener.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Menu$SpaceKeyListener.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Obstacle$LIVES.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/controller/Controller.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/controller/actions/Action.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/controller/actions/LeftKeyPressedAction.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/controller/actions/RightKeyPressedAction.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/controller/actions/SpaceKeyPressedAction.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/controller/actions/UpdateAction.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/view/events/Event.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/view/events/LeftKeyPressedEvent.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/view/events/RightKeyPressedEvent.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/view/events/SpaceKeyPressedEvent.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/view/events/UpdateEvent.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/arkanoid/GameInterface.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/arkanoid/Menu.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/arkanoid/controller/Controller.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/arkanoid/controller/actions/Action.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/arkanoid/controller/actions/LeftKeyPressedAction.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/arkanoid/controller/actions/RightKeyPressedAction.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/arkanoid/controller/actions/SpaceKeyPressedAction.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/arkanoid/controller/actions/UpdateAction.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/arkanoid/view/events/Event.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/arkanoid/view/events/LeftKeyPressedEvent.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/arkanoid/view/events/RightKeyPressedEvent.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/arkanoid/view/events/SpaceKeyPressedEvent.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/arkanoid/view/events/UpdateEvent.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Gameplay$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Gameplay$2.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/Arkanoid/arkanoid/Main.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/arkanoid/Main.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -208,10 +435,10 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arkanoid.Main" />
+    <configuration name="Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arkanoid.Menu" />
       <module name="Arkanoid" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="arkanoid.*" />
@@ -262,7 +489,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Menu" />
       </list>
     </recent_temporary>
   </component>
@@ -283,36 +510,52 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41014000" />
+    <option name="totallyTimeSpent" value="47088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49947917" weight="0.3280255" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50208336" side_tool="true" visible="true" weight="0.30042464" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Messages" order="18" sideWeight="0.49895832" weight="0.3280255" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5072917" side_tool="true" visible="true" weight="0.28450108" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49791667" visible="true" weight="0.30042464" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.069270834" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Learn" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49270833" weight="0.28450108" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Designer" order="6" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18541667" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info id="Learn" order="11" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49479166" weight="0.39915073" />
+      <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.069270834" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info id="Learn" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49791667" visible="true" weight="0.30042464" />
+      <window_info id="Designer" order="8" />
+      <window_info id="UI Designer" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="17" sideWeight="0.50208336" side_tool="true" visible="true" weight="0.30042464" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="10" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,77 +564,65 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arkanoid/Menu.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arkanoid/controller/Controller.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arkanoid/controller/actions/RightKeyPressedAction.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arkanoid/controller/actions/SpaceKeyPressedAction.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arkanoid/controller/actions/LeftKeyPressedAction.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arkanoid/Menu.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/arkanoid/Menu.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/arkanoid/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arkanoid/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arkanoid/PlayersPad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arkanoid/Ball.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arkanoid/Obstacle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arkanoid/Bonus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/arkanoid/Gameplay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2057">
           <caret line="121" column="58" selection-start-line="121" selection-start-column="58" selection-end-line="121" selection-end-column="58" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6260#6261#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -403,19 +634,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arkanoid/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/Menu.java" />
     <entry file="file://$PROJECT_DIR$/src/arkanoid/Gameplay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6260#6261#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -494,7 +719,7 @@
         <state relative-caret-position="1105">
           <caret line="76" column="192" selection-start-line="76" selection-start-column="192" selection-end-line="76" selection-end-column="192" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6260#6261#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -511,7 +736,7 @@
         <state relative-caret-position="1530">
           <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6260#6261#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -556,7 +781,7 @@
         <state relative-caret-position="1530">
           <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6260#6261#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -601,7 +826,7 @@
         <state relative-caret-position="17">
           <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6260#6261#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -631,13 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arkanoid/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -648,45 +866,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arkanoid/Bonus.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10/lib/src.zip!/java.base/jdk/internal/misc/Unsafe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state relative-caret-position="180">
+          <caret line="2293" column="23" selection-start-line="2293" selection-start-column="23" selection-end-line="2293" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/controller/actions/Action.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/controller/actions/RightKeyPressedAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#128#129#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/controller/actions/LeftKeyPressedAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/view/events/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/view/events/LeftKeyPressedEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/view/events/RightKeyPressedEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/view/events/SpaceKeyPressedEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/PlayersPad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/Gameplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="222" column="48" selection-start-line="222" selection-start-column="48" selection-end-line="222" selection-end-column="48" />
+          <folding>
+            <element signature="e#6260#6261#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arkanoid/Obstacle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="272">
+          <caret line="112" column="28" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arkanoid/PlayersPad.java">
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/controller/actions/SpaceKeyPressedAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arkanoid/Gameplay.java">
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="238" column="61" selection-start-line="238" selection-start-column="61" selection-end-line="238" selection-end-column="61" />
+        <state relative-caret-position="405">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/GameInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/controller/actions/UpdateAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/Bonus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="140" column="28" selection-start-line="140" selection-start-column="28" selection-end-line="140" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -695,8 +1009,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arkanoid/Ball.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        <state relative-caret-position="-680">
+          <caret line="50" column="32" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arkanoid/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="74" column="58" selection-start-line="74" selection-start-column="58" selection-end-line="74" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -59,7 +59,7 @@ public class Bonus {
 
     /**
      * Determines type of bonus
-     * @param t
+     * @param t int value of a type
      */
     public void assignType(int t){
        if(t == 0) type = TYPE.LONGPAD;
@@ -138,7 +138,7 @@ public class Bonus {
 
     /**
      * Renders bonus
-     * @param g
+     * @param g JPanel param
      */
 
     public void render(Graphics g){

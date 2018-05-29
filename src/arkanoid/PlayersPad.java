@@ -11,11 +11,11 @@ public class PlayersPad {
 
     /**
      * Player constructor
-     * @param game
-     * @param x
-     * @param y
-     * @param width
-     * @param height
+     * @param game game instance
+     * @param x starting X possition
+     * @param y starting Y possition
+     * @param width starting width
+     * @param height starting height
      */
     PlayersPad(Gameplay game, int x, int y, int width, int height){
         hitBox = new Rectangle(x,y,width,height);
@@ -24,10 +24,6 @@ public class PlayersPad {
 
     public int getX(){
         return hitBox.x;
-    }
-
-    public int getY(){
-        return hitBox.y;
     }
 
     public int getWidth(){
@@ -42,12 +38,18 @@ public class PlayersPad {
 
     public void  setWidth(int width) { hitBox.width = width; }
 
-    public void render(Graphics g){
-
-        g.setColor(new Color(200,20,220));
-        g.fillRect(hitBox.x,hitBox.y,hitBox.width,hitBox.height);
-
+    public void setX(int x) {
+        hitBox.x=x;
     }
+
+    public void setY(int y) {
+        hitBox.y=y;
+    }
+
+    /**
+     * Moves pad on X axis
+     * @param speed number of pixels pad moves by one KeyEvent
+     */
 
     public void move(int speed)
     {
@@ -56,11 +58,15 @@ public class PlayersPad {
         if(hitBox.x >= gameInstance.getGamefield().width - hitBox.width) hitBox.x = gameInstance.getGamefield().width - hitBox.width;
     }
 
-    public void setX(int x) {
-        hitBox.x=x;
-    }
+    /**
+     * Renders PlayersPad
+     * @param g JPanel param
+     */
 
-    public void setY(int y) {
-        hitBox.y=y;
+    public void render(Graphics g){
+
+        g.setColor(new Color(200,20,220));
+        g.fillRect(hitBox.x,hitBox.y,hitBox.width,hitBox.height);
+
     }
 };
