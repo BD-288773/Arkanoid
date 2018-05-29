@@ -9,7 +9,15 @@ public class PlayersPad {
     private Rectangle hitBox;
     private Gameplay gameInstance;
 
-    public PlayersPad(Gameplay game, int x, int y, int width, int height){
+    /**
+     * Player constructor
+     * @param game
+     * @param x
+     * @param y
+     * @param width
+     * @param height
+     */
+    PlayersPad(Gameplay game, int x, int y, int width, int height){
         hitBox = new Rectangle(x,y,width,height);
         gameInstance = game;
     }
