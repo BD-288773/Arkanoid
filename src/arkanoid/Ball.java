@@ -61,7 +61,6 @@ public class Ball {
 
             if (gameInstance.getObstacle().getTotalBricks() == 0)
                 gameInstance.setIsWon(true);
-
             possition.move(possition.x + (movement.width / value), possition.y + (movement.height / value));
         }
     }
@@ -96,14 +95,8 @@ public class Ball {
                 if(hBox[i][j].intersects(new Rectangle(possition.x, possition.y, 2*radius, 2*radius)))
                 {
                     if(gameInstance.getObstacle().getLives()[i][j]!=Obstacle.LIVES.NULL) {
-                        gameInstance.setScore(gameInstance.getObstacle().getLives()[i][j].getPoints());
-                        gameInstance.getObstacle().crack(i, j);
 
-                        int r = rand.nextInt(20);
-                        if(r == 7) {
-                            gameInstance.getBonuses().add(new Bonus(gameInstance,possition.x, possition.y));
-                        }
-
+                        obstacleDestroy(i, j);
                         if(!gameInstance.isTransparent()) {
                             obstacleX = hBox[i][j].x;
                             obstacleY = hBox[i][j].y;
@@ -113,12 +106,10 @@ public class Ball {
                             if(movement.width > 0 && movement.height >0){
                                 if(fixedBallX >= obstacleX && ballX <= fixedObstacleX && ballY < obstacleY && fixedBallY >= obstacleY){
                                     movement.height = -movement.height;
-                                    System.out.println("góra");
                                     return;
                                 }
                                 if(ballY <= fixedObstacleY && fixedBallY >= obstacleY && ballX < obstacleX && fixedBallX >= obstacleX){
                                     movement.width = -movement.width;
-                                    System.out.println("lewa");
                                     return;
                                 }
 
@@ -127,12 +118,10 @@ public class Ball {
                             if(movement.width < 0 && movement.height > 0){
                                 if(fixedBallX >= obstacleX && ballX <= fixedObstacleX && ballY < obstacleY && fixedBallY >= obstacleY){
                                     movement.height = -movement.height;
-                                    System.out.println("góra");
                                     return;
                                 }
                                 if(ballY <= fixedObstacleY && fixedBallY >= obstacleY && ballX <= fixedObstacleX && fixedBallX > fixedObstacleX){
                                     movement.width = -movement.width;
-                                    System.out.println("prawa");
                                     return;
                                 }
 
@@ -141,25 +130,21 @@ public class Ball {
                             if(movement.width < 0 && movement.height < 0){
                                 if(ballX <= fixedObstacleX && fixedBallX >= obstacleX && ballY <= fixedObstacleY && fixedBallY > fixedObstacleY){
                                     movement.height = -movement.height;
-                                    System.out.println("dół");
                                     return;
                                 }
                                 if(ballY <= fixedObstacleY && fixedBallY >= obstacleY && ballX <= fixedObstacleX && fixedBallX > fixedObstacleX){
                                     movement.width = -movement.width;
-                                    System.out.println("prawa");
                                     return;
                                 }
                             }
 
                             if(movement.width > 0 && movement.height < 0){
-                                if(ballX <= fixedObstacleX && fixedBallX >= obstacleX && ballY <= fixedObstacleY && fixedBallY > fixedObstacleY){
+                                if(ballY <= fixedObstacleY && fixedBallX >= obstacleX && ballX <= fixedObstacleX && fixedBallY > fixedObstacleY){
                                     movement.height = -movement.height;
-                                    System.out.println("dół");
                                     return;
                                 }
-                                if(ballY <= fixedObstacleY && fixedBallY >= obstacleY && ballX < obstacleX && fixedBallX >= obstacleX){
+                                if(ballY <= fixedObstacleY && fixedBallX >= obstacleX && ballX < obstacleX && fixedBallY >= obstacleY){
                                     movement.width = -movement.width;
-                                    System.out.println("lewa");
                                     return;
                                 }
                             }
@@ -168,6 +153,16 @@ public class Ball {
                     }
                 }
             }
+        }
+    }
+
+    private void obstacleDestroy(int i, int j){
+        gameInstance.setScore(gameInstance.getObstacle().getLives()[i][j].getPoints());
+        gameInstance.getObstacle().crack(i, j);
+
+        int r = rand.nextInt(20);
+        if(r == 7) {
+            gameInstance.getBonuses().add(new Bonus(gameInstance,possition.x, possition.y));
         }
     }
 

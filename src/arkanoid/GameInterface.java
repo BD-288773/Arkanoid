@@ -11,18 +11,26 @@ public class GameInterface extends JPanel {
         gameInstance = game;
     }
 
+    /**
+     * Sets standard size
+     * @param size gameField size
+     */
     public void setSize(Dimension size) {
         super.setSize(size);
         if (!gameInstance.isInProgress()) {
             Dimension gameField = new Dimension(size.width * 3 / 4, size.height * 95 / 100);
             gameInstance.setGameField(gameField);
-            gameInstance.setObstacle(new Obstacle(gameInstance, 4, 8));
+            gameInstance.setObstacle(new Obstacle(gameInstance, 8, 15));
             gameInstance.getBall().setPossition(((int) ((gameField.getWidth() - Ball.standardBallRadius) / 2)), (int) (gameField.getHeight() - PlayersPad.standardPlayersPadHeight - (Ball.standardBallRadius)) - 10);
             gameInstance.getPlayersPad().setX((int) ((gameField.getWidth() - PlayersPad.standardPlayersPadWidth) / 2));
             gameInstance.getPlayersPad().setY((int) (gameField.getHeight() - PlayersPad.standardPlayersPadHeight));
         }
     }
 
+    /**
+     * Paints graphical unit
+     * @param g JPane param
+     */
     public void paint(Graphics g) {
         super.paint(g);
         g.setColor(new Color(0, 0, 255));

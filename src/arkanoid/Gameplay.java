@@ -42,7 +42,7 @@ public class Gameplay{
         speed = standardSpeed;
         playersPad = new PlayersPad(this, (int) ((gameField.getWidth() - PlayersPad.standardPlayersPadWidth) / 2), (int) (gameField.getHeight() - PlayersPad.standardPlayersPadHeight), PlayersPad.standardPlayersPadWidth, PlayersPad.standardPlayersPadHeight);
         ball = new Ball(this, (int) ((gameField.getWidth() - Ball.standardBallRadius) / 2), (int) (gameField.getHeight() - PlayersPad.standardPlayersPadHeight - 2 * (Ball.standardBallRadius) - 10), Ball.standardBallRadius);
-        lives = 13;
+        lives = 3;
         bonuses = new ArrayList<>();
         score = 0;
         ball.setMovement(10, -10);
@@ -65,6 +65,11 @@ public class Gameplay{
         lives--;
     }
 
+    /**
+     * Checks if LONGPAD bonus or SHORTPAD bonus has been obtained less than 8 seconds ago
+     * @param lengthTimer time since acquiring bonus
+     * @return time if less than 8s
+     */
     public double checkLengthTimer(double lengthTimer){
         if (System.currentTimeMillis() - lengthTimer >= 8000 || (!isLonger && !isShorter)) {
             isLonger = false;
@@ -75,6 +80,11 @@ public class Gameplay{
         return lengthTimer;
     }
 
+    /**
+     * Checks if FASTPAD bonus or SLOWPAD bonus has been obtained less than 8 seconds ago
+     * @param padSpeedTimer time since acquiring bonus
+     * @return time if less than 8s
+     */
     public double checkPadSpeedTimer(double padSpeedTimer){
         if (System.currentTimeMillis() - padSpeedTimer >= 8000 || (!isPadFaster && !isPadSlower)) {
             isPadSlower = false;
@@ -86,6 +96,11 @@ public class Gameplay{
         return padSpeedTimer;
     }
 
+    /**
+     * Checks if FASTBALL bonus or SLOWBALL bonus has been obtained less than 8 seconds ago
+     * @param ballSpeedTimer time since acquiring bonus
+     * @return time if less than 8s
+     */
     public double checkBallSpeedTimer(double ballSpeedTimer){
         if (System.currentTimeMillis() - ballSpeedTimer >= 8000 || (!isBallFaster && !isBallSlower)) {
             isBallFaster = false;
@@ -105,6 +120,11 @@ public class Gameplay{
         return ballSpeedTimer;
     }
 
+    /**
+     * Checks if TRANSPARENTBALL bonus has been obtained less than 8 seconds ago
+     * @param transparencyTimer time since acquiring bonus
+     * @return time if less than 8s
+     */
     public double checkTransparencyTimer(double transparencyTimer){
         if (System.currentTimeMillis() - transparencyTimer >= 8000 || !isTransparent) {
             isTransparent = false;
@@ -113,6 +133,9 @@ public class Gameplay{
         return transparencyTimer;
     }
 
+    /**
+     * Determines action when bonus contacts player
+     */
     public void acquireBonus(){
         List<Bonus> toRemove = new ArrayList<>();
         for (Bonus b : bonuses) {
@@ -127,6 +150,22 @@ public class Gameplay{
 
         bonuses.removeAll(toRemove);
         toRemove.clear();
+    }
+
+    /**
+     * Updates logical values
+     */
+    public void update(){
+        ball.update();
+        acquireBonus();
+        if(lives ==0){
+            isLost = true;
+            ball.setMovement(0,0);
+        }
+        lengthTimer = checkLengthTimer(lengthTimer);
+        padSpeedTimer = checkPadSpeedTimer(padSpeedTimer);
+        ballSpeedTimer = checkBallSpeedTimer(ballSpeedTimer);
+        transparencyTimer = checkTransparencyTimer(transparencyTimer);
     }
 
 
@@ -220,9 +259,7 @@ public class Gameplay{
         isBallSlower = flag;
     }
 
-    public void setIsTransparent(boolean flag) {
-        isTransparent = flag;
-    }
+    public void setIsTransparent(boolean flag) { isTransparent = flag; }
 
     public void setLengthTimer(double time){
         lengthTimer = time;
@@ -240,13 +277,4 @@ public class Gameplay{
         transparencyTimer = time;
     }
 
-    public void update(){
-        ball.update();
-        acquireBonus();
-        if(lives ==0)isLost = true;
-        lengthTimer = checkLengthTimer(lengthTimer);
-        padSpeedTimer = checkPadSpeedTimer(padSpeedTimer);
-        ballSpeedTimer = checkBallSpeedTimer(ballSpeedTimer);
-        transparencyTimer = checkTransparencyTimer(transparencyTimer);
-    }
 };

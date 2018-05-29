@@ -10,6 +10,12 @@ import java.awt.event.KeyListener;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
+/**
+ * Szymon Sidoruk
+ * PROZ
+ * Arkanoid
+ */
+
 
 public class Menu extends JPanel{
 
@@ -97,7 +103,8 @@ public class Menu extends JPanel{
                 delta--;
                 queue.put(new UpdateEvent());
             }
-            if (game.isWon()) break;
+            if(game.isWon()) break;
+            if(game.isLost()) break;
         }
 
     }
